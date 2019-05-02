@@ -1,0 +1,99 @@
+/* Clase para darle estilos al body */
+.blog-body {
+  background: #D0D0D0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/* Clases para darle estilos a la barra de navegacion */
+.header{
+  background: #082D5E;
+}
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+
+.logo-img{
+  width: 100px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.rs{
+  margin-top: 75px;
+  display: flex;
+  justify-content:center;
+  align-items:baseline;
+  padding-top: 2.5rem;
+}
+
+.buttom{
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+/* Clases para darle estilos al contenedor principal */
+
+.main{
+  background-color: rgb(255,100,1);
+  padding-top: 15px;
+  width: 98%;
+  margin-left: 10px;
+}
+
+
+.media-img{
+  width: 30%;
+  padding: 20px;
+}
+
+.img{
+  width: 80%;
+  border-radius: 50px;
+}
+
+.coment{
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.pd-20 {
+  padding: 20px 0 20px 0;
+}
+
+/*-------version movil---------*/
+@media (max-width: 768px)
+
+{
+
+  .right-column{
+    display: none;
+  }
+
+  .img-social{
+    width: 35px;
+  }
+
+  .media-img{
+    width: 60%;
+    padding: 15px;
+  }
+
+  .img{
+    border-radius: 25px;
+  }
+
+  .blog-body{
+    font-size: 12px;
+
+  }
+
+  .coment{
+    margin-left: 10px;
+  }
+
+}
